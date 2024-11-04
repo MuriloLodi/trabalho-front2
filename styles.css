@@ -1,0 +1,25 @@
+.linha-divisoria-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Largura total da linha */
+    margin: 20px auto; /* Centraliza a linha */
+}
+
+/* Estilo para cada metade da linha */
+.linha-divisoria {
+    border-top: 7px solid rgb(187, 187, 187); /* Cor e espessura da linha */
+    width: 45%; /* Cada metade ocupa 45% da largura total */
+    border-radius: 5px;
+}
+
+/* Estilo para o espaço entre as linhas */
+.espaco {
+    width: 3%; /* Largura do espaço entre as duas partes */
+}
+
+.linha-divisoria2 {
+    border-top: 6px solid rgb(179, 179, 179); /* Cor e espessura da linha */
+    width: 45%; /* Cada metade ocupa 45% da largura total */
+    border-radius: 5px;
+}
