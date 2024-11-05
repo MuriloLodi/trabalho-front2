@@ -1,3 +1,14 @@
+@media (max-width: 995px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .col-12 {
+      width: 100% !important; /* Garante que as colunas ocupem 100% da largura da tela */
+    }
+  }
+
 .linha-divisoria-container {
     display: flex;
     justify-content: center;
