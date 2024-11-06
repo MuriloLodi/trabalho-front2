@@ -1,3 +1,4 @@
+
 @media (max-width: 995px) {
     .row {
       display: flex;
@@ -8,7 +9,6 @@
       width: 100% !important; /* Garante que as colunas ocupem 100% da largura da tela */
     }
   }
-
 .linha-divisoria-container {
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
 /* Estilo para cada metade da linha */
 .linha-divisoria {
     border-top: 7px solid rgb(187, 187, 187); /* Cor e espessura da linha */
-    width: 45%; /* Cada metade ocupa 45% da largura total */
+    width: 100%; /* Cada metade ocupa 45% da largura total */
     border-radius: 5px;
 }
 
@@ -31,8 +31,38 @@
 
 .linha-divisoria2 {
     border-top: 6px solid rgb(179, 179, 179); /* Cor e espessura da linha */
-    width: 45%; /* Cada metade ocupa 45% da largura total */
+    width: 100%; /* Cada metade ocupa 45% da largura total */
     border-radius: 5px;
 }
 
+ /* Efeito de zoom */
+ .zoom-effect {
+  transition: transform 0.3s ease-in-out; /* Transição suave */
+  width: 100%;
+  height: auto;
+}
 
+.img-zoom {
+  transition: transform 0.3s ease-in-out; /* Suaviza a transição */
+}
+
+.img-zoom:hover {
+  transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+}
+
+.font{
+  font-weight: 500;
+}
+
+.hover-text:hover {
+  color: rgb(155, 155, 155); /* Cor que você quer no hover */
+}
+
+.black{
+  color: black;
+}
+
+
+.medium-weight {
+  font-weight: 400; /* Peso médio (entre regular e semi-bold) */
+}
