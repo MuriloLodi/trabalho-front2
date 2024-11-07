@@ -1,4 +1,10 @@
 
+
+@media (min-width: 991px) {
+  .mob{
+    display: none;
+  }
+}
 @media (max-width: 990px) {
     .row {
       display: flex;
@@ -8,7 +14,11 @@
     .col-12 {
       width: 100% !important;
     }
+    .cont{
+      display: none; /* Esconde as imagens */
   }
+  }
+  
 .linha-divisoria-container {
     display: flex;
     justify-content: center;
@@ -65,6 +75,19 @@
 }
 
 
-.mt-10{
-  margin-top: 40px;
+.mb-10{
+  margin-bottom: 60px;
+}
+
+.w-full{
+  width: 100%;
+
+}
+
+.space{
+  justify-content: space-around;
+}
+
+.menos{
+  margin-top: -50px;
 }
