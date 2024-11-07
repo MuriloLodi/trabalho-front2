@@ -1,53 +1,50 @@
 
-@media (max-width: 995px) {
+@media (max-width: 990px) {
     .row {
       display: flex;
       flex-direction: column;
     }
   
     .col-12 {
-      width: 100% !important; /* Garante que as colunas ocupem 100% da largura da tela */
+      width: 100% !important;
     }
   }
 .linha-divisoria-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%; /* Largura total da linha */
-    margin: 20px auto; /* Centraliza a linha */
+    width: 90%;
+    margin: 20px auto;
 }
 
-/* Estilo para cada metade da linha */
 .linha-divisoria {
-    border-top: 7px solid rgb(187, 187, 187); /* Cor e espessura da linha */
-    width: 100%; /* Cada metade ocupa 45% da largura total */
+    border-top: 7px solid rgb(187, 187, 187);
+    width: 100%;
     border-radius: 5px;
 }
 
-/* Estilo para o espaço entre as linhas */
 .espaco {
-    width: 3%; /* Largura do espaço entre as duas partes */
+    width: 3%;
 }
 
 .linha-divisoria2 {
-    border-top: 6px solid rgb(179, 179, 179); /* Cor e espessura da linha */
-    width: 100%; /* Cada metade ocupa 45% da largura total */
+    border-top: 6px solid rgb(179, 179, 179);
+    width: 100%;
     border-radius: 5px;
 }
 
- /* Efeito de zoom */
  .zoom-effect {
-  transition: transform 0.3s ease-in-out; /* Transição suave */
+  transition: transform 0.3s ease-in-out;
   width: 100%;
   height: auto;
 }
 
 .img-zoom {
-  transition: transform 0.3s ease-in-out; /* Suaviza a transição */
+  transition: transform 0.3s ease-in-out;
 }
 
 .img-zoom:hover {
-  transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+  transform: scale(1.1);
 }
 
 .font{
@@ -55,7 +52,7 @@
 }
 
 .hover-text:hover {
-  color: rgb(155, 155, 155); /* Cor que você quer no hover */
+  color: rgb(155, 155, 155);
 }
 
 .black{
@@ -64,5 +61,10 @@
 
 
 .medium-weight {
-  font-weight: 400; /* Peso médio (entre regular e semi-bold) */
+  font-weight: 400;
+}
+
+
+.mt-10{
+  margin-top: 40px;
 }
