@@ -91,3 +91,8 @@
 .menos{
   margin-top: -50px;
 }
+
+
+.max{
+  max-width: 170px;
+}
